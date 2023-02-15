@@ -1,0 +1,18 @@
+.contact-preview {
+  padding: 10px;
+  background-color: rgb(181, 188, 143);
+  border-radius: 4px;
+  position: relative;
+  transition: transform 0.4s;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+  }
+}
